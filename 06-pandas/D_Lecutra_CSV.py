@@ -29,3 +29,4 @@ df3 = pd.read_csv(
 path_guardado = "C://Users//USRBET//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//artwork_data.pickle"
 
 df3.to_pickle(path_guardado)
+
