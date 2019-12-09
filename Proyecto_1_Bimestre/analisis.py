@@ -58,15 +58,13 @@ data_frame_test.age[data_frame_test.gender=='Female'].value_counts()[:10]
 plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\evidence\\Participación por edad en mujeres.jpg")
 plt.show()
 
-edades_hombres = data_frame_test.age[data_frame_test.gender=='Male'].value_counts()[:10]
-edades_hombre = data_frame_test.age[data_frame_test.gender=='Male'].unique()
-plt.title('Particiaciones por edad de hombres')
-plt.pie(edades_hombres, labels=edades_hombres.unique(),autopct="%0.1f %%")
-plt.axis("equal")
+plt.title('Participaciones por edad de hombres')
+edades_hombres = data_frame_test.age[data_frame_test.gender=='Male'].value_counts()[:10].plot(kind='bar')
+data_frame_test.age[data_frame_test.gender=='Male'].value_counts()[:10]
 plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\evidence\\Participación por edad en hombres.jpg")
 plt.show()
 
-edad = data_frame_test['age'].value_counts()
+edad = data_frame_test['age'].value_counts()[:10]
 edadNum = [int(x) for x in edad]
 #edadNum.sort()
 a = 0 
@@ -213,7 +211,7 @@ ax.set_xticks(ind + width / 2)
 ax.set_xticklabels(('De 18 a 25 años', 'De 26 a 35 años', 'De 36 a 45 años', 
              'De 46 a 55 años', 'De 56 a 65 años', 'De 65 años en adelante'))
 ax.legend((bar1[0], bar2[0]), ('Masculino', 'Femenino'))
-plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\data\\Participantes por genero y por edad.jpg")
+plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\evidence\\Participantes por genero y por edad.jpg")
 
 plt.show()
 
