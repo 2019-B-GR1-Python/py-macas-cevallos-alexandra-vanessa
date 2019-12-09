@@ -10,102 +10,63 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-
-
 path_csv = "C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\data\\world_marathon_majors2.csv"
-##C:\Users\Ale\Documents\GitHub\py-macas-cevallos-alexandra-vanessa\Proyecto_1_Bimestre\data
 data_frame_test = pd.read_csv(path_csv,  encoding = 'unicode_escape',sep = ";",parse_dates=[2],infer_datetime_format=True)
-data_frame_test.head()
-data_frame_test.dtypes
+data_frame_test.dropna()
 temp = pd.DatetimeIndex(data_frame_test['time'])
 data_frame_test['Date'] = temp.date
 data_frame_test['Time'] = temp.time
 del data_frame_test['time']
+data_frame_test.dtypes
+
+print(data_frame_test.shape)
+
+print ("Han existido un total de: ",data_frame_test["winner"].size," ganadores de los seis Grandes Maratones Mundiales de la historia")
+print (data_frame_test["winner"])
+
+plt.figure(figsize=(15,6))
+plt.title('Top 10 de los ganadores de los maratones')
+ganadores_count = data_frame_test['winner'].value_counts()[:10].sort_values().plot(kind='barh')
+count_ganadores = data_frame_test['winner'].value_counts()[:10]
+print(count_ganadores)
+plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\evidence\\Top 10 de los ganadores de los maratones.jpg")
+plt.show()
+
+plt.figure(figsize=(10,6))
+plt.title('Maratones que ha ganado Grete Waitz')
+ganadors_count = data_frame_test.marathon[data_frame_test.winner=='Grete Waitz'].value_counts().sort_values().plot(kind='barh')
+count_ganador = data_frame_test.marathon[data_frame_test.winner=='Grete Waitz'].value_counts()
+print(count_ganador)
+plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\evidence\\Maratones que ha ganado Grete Waitz.jpg")
+plt.show()
 
 genero = data_frame_test['gender'].value_counts()
 tipo_genero = ['Male','Female']
-
 plt.figure(figsize=(5,6))
 plt.title('Segregación de ganadores por genero')
 plt.bar(tipo_genero, genero, color = 'orangered')
 for a,b in zip(tipo_genero, genero):
     plt.text(a,b,str(b),  horizontalalignment='center', fontsize=15, family = 'fantasy',fontweight = 'bold')
-plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\data\\Segregación de ganadores por genero.jpg")
+plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\evidence\\Segregación de ganadores por genero.jpg")
 plt.show()
 
-"""
-segundo
-"""
-plt.title('Top 10 de los ganadores de los maratones')
-ganadores_count = data_frame_test['winner'].value_counts()[:10].sort_values().plot(kind='barh')
-count_ganadores = data_frame_test['winner'].value_counts()[:10]
-print(count_ganadores)
-plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\data\\Top 10 de los ganadores de los maratones.jpg")
-plt.show()
-
-"""
-"""
-
-print ("Han existido un total de: ",data_frame_test["winner"].size," ganadores de los seis Grandes Maratones Mundiales de la historia")
-print (data_frame_test["winner"])
-
-
-"""
-"""
-#fig = plt.figure(figsize=(8,18))
-
-edades_hombres = data_frame_test.age[data_frame_test.gender=='Male'].value_counts()[:10]
-
-edades_mujeres = data_frame_test.age[data_frame_test.gender=='Female'].value_counts()[:10]
-
-#Mostramos la grafica con el metodo show()
-plt.show()
-#print(edades_hombres)
-#data_frame_test.age[data_frame_test.gender=='Male'].value_counts().plot(kind='barh',alpha=1)
-#plt.show()
-
-#Obtenemos la posicion de cada etiqueta en el eje de X
-	
-ganadores = data_frame_test['age'].value_counts().groupby(data_frame_test['gender']).mean().plot(kind='bar')
-print(ganadores)
-plt.show()
-
-
-"""
-"""
-plt.pie(generoC, labels=letra_genero, autopct='%1.1f%%',
-        shadow=True, startangle=90)
-plt.axis('equal')
-plt.show()
-plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\data\\Segregación de ganadores por genero.jpg")
-
+print("El genero del campeon Grete Witz es:", data_frame_test.gender[data_frame_test.winner=='Grete Waitz'])
 
 plt.title('Particiaciones por edad de mujeres')
-plt.pie(edades_mujeres, labels=edades_mujeres,autopct="%0.1f %%")
-plt.axis("equal")
-plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\data\\Participación por edad en mujeres.jpg")
+edades_mujeres = data_frame_test.age[data_frame_test.gender=='Female'].value_counts()[:10].plot(kind = 'bar')
+data_frame_test.age[data_frame_test.gender=='Female'].value_counts()[:10]
+plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\evidence\\Participación por edad en mujeres.jpg")
 plt.show()
 
+edades_hombres = data_frame_test.age[data_frame_test.gender=='Male'].value_counts()[:10]
+edades_hombre = data_frame_test.age[data_frame_test.gender=='Male'].unique()
 plt.title('Particiaciones por edad de hombres')
-plt.pie(edades_hombres, labels=edades_hombres,autopct="%0.1f %%")
+plt.pie(edades_hombres, labels=edades_hombres.unique(),autopct="%0.1f %%")
 plt.axis("equal")
-plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\data\\Participación por edad en hombres.jpg")
+plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\evidence\\Participación por edad en hombres.jpg")
 plt.show()
-
-
-
-
-plt.figure(figsize=(30,5))
-plt.title("Total de Participantes por año")
-ganadores_anio = data_frame_test['year'].value_counts()[:40].sort_values().plot(kind='bar')
-plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\data\\Total de Participantes por año.jpg")
-
-plt.show()
-
-data_frame_test['year'].value_counts()[:40]
 
 edad = data_frame_test['age'].value_counts()
-
 edadNum = [int(x) for x in edad]
 #edadNum.sort()
 a = 0 
@@ -136,8 +97,56 @@ plt.title("Porcetanjes de participantes por rango de edad")
 plt.pie(edades, labels=edadesCat, autopct='%1.1f%%',
         shadow=True, startangle=90, radius = 1800)
 plt.axis('equal')
-plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\data\\Porcetanjes de participantes por rango de edad.jpg")
+plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\evidence\\Porcetanjes de participantes por rango de edad.jpg")
 plt.show()
+
+
+
+
+
+
+
+"""
+"""
+#fig = plt.figure(figsize=(8,18))
+
+
+
+#Mostramos la grafica con el metodo show()
+plt.show()
+#print(edades_hombres)
+#data_frame_test.age[data_frame_test.gender=='Male'].value_counts().plot(kind='barh',alpha=1)
+#plt.show()
+
+#Obtenemos la posicion de cada etiqueta en el eje de X
+	
+ganadores = data_frame_test['age'].value_counts().groupby(data_frame_test['gender']).mean().plot(kind='bar')
+print(ganadores)
+plt.show()
+
+
+"""
+"""
+plt.pie(generoC, labels=letra_genero, autopct='%1.1f%%',
+        shadow=True, startangle=90)
+plt.axis('equal')
+plt.show()
+plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\data\\Segregación de ganadores por genero.jpg")
+
+
+
+
+
+
+plt.figure(figsize=(30,5))
+plt.title("Total de Participantes por año")
+ganadores_anio = data_frame_test['year'].value_counts()[:40].sort_values().plot(kind='bar')
+plt.savefig("C:\\Users\\Ale\\Documents\\GitHub\\py-macas-cevallos-alexandra-vanessa\\Proyecto_1_Bimestre\\data\\Total de Participantes por año.jpg")
+
+plt.show()
+
+data_frame_test['year'].value_counts()[:40]
+
 
 
 edad = data_frame_test['age'].value_counts()
