@@ -1,0 +1,231 @@
+Han existido un total de:  541  ganadores de los seis Grandes Maratones Mundiales de la historia
+0            Dickson Chumba
+1            Birhane Dibaba
+2            Wilson Kipsang
+3        Sarah Chepchirchir
+4             Feyisa Lilesa
+5              Helah Kiprop
+6          Endeshaw Negesse
+7            Birhane Dibaba
+8            Dickson Chumba
+9             Tirfi Tsegaye
+10           Dennis Kimetto
+11             Aberu Kebede
+12          Michael Kipyego
+13           Atsede Habtamu
+14           Hailu Mekonnen
+15           Noriko Higuchi
+16        Masakazu Fujiwara
+17     Alevtina Biktimirova
+18            Salim Kipsang
+19          Mizuho Nasukawa
+20           Viktor Röthlin
+21           Claudia Dreher
+22            Daniel Njenga
+23             Hitomi Niiya
+24           Eliud Kipchoge
+25           Gladys Cherono
+26          Kenenisa Bekele
+27             Aberu Kebede
+28           Eliud Kipchoge
+29           Gladys Cherono
+        
+511            Midde Hamrin
+512           Martín Pitayo
+513            Aurora Cunha
+514        Paul Davies-Hale
+515         Lisa Weidenbach
+516          Alejandro Cruz
+517         Lisa Weidenbach
+518                     nan
+519                     nan
+520          Toshihiko Seko
+521      Ingrid Kristiansen
+522             Steve Jones
+523             Joan Benoit
+524             Steve Jones
+525               Rosa Mota
+526             Joseph Nzau
+527               Rosa Mota
+528              Greg Meyer
+529              Nancy Conz
+530            Phil Coppess
+531              Tina Gandy
+532        Frank Richardson
+533            Sue Peterson
+534             Dan Cloeter
+535          Laura Michalek
+536          Mark Stanforth
+537            Lynae Larson
+538             Dan Cloeter
+539       Dorothy Doolittle
+540        Vivian Cheruiyot
+Name: winner, Length: 541, dtype: object
+
+
+Grete Waitz           11
+Bill Rodgers           8
+Ingrid Kristiansen     8
+Clarence DeMar         7
+Uta Pippig             7
+Paula Radcliffe        7
+Mary Keitany           6
+Rosa Mota              6
+Catherine Ndereba      6
+Eliud Kipchoge         6
+Name: winner, dtype: int64
+
+
+2014    13
+2017    12
+2007    12
+2016    12
+2015    12
+2013    12
+2012    12
+2011    12
+2010    12
+2009    12
+2008    12
+1981    11
+1993    10
+1982    10
+1983    10
+1984    10
+1985    10
+1986    10
+1987    10
+1988    10
+1989    10
+1990    10
+1991    10
+1992    10
+1997    10
+1994    10
+2001    10
+2006    10
+2005    10
+2004    10
+1995    10
+2002    10
+2003    10
+2000    10
+1999    10
+1998    10
+1996    10
+1980     8
+1979     8
+1978     8
+Name: year, dtype: int64
+02:09:00    37
+02:25:00    34
+02:08:00    28
+02:07:00    26
+02:23:00    26
+02:10:00    25
+02:11:00    21
+02:26:00    19
+02:28:00    18
+02:24:00    17
+Name: Time, dtype: int64
+Kenya             136
+United States     104
+Ethiopia           51
+Germany            36
+United Kingdom     35
+Japan              22
+Norway             20
+Canada             17
+Portugal           11
+Mexico             10
+Finland            10
+Russia              8
+Poland              8
+Brazil              7
+Italy               6
+South Africa        5
+Belgium             5
+Morocco             5
+New Zealand         5
+Tanzania            4
+South Korea         3
+Ireland             3
+Australia           3
+Sweden              2
+Latvia              2
+Denmark             2
+Spain               2
+Greece              2
+Romania             2
+Colombia            2
+Switzerland         2
+Eritrea             1
+Hungary             1
+Guatemala           1
+China               1
+Yugoslavia          1
+Soviet Union        1
+Name: country, dtype: int64
+
+Bill Rodgers              8
+Clarence DeMar            7
+Miki Gorman               4
+Alberto Salazar           4
+Leslie S. Pawson          3
+Nina Kuscsik              3
+Joan Benoit               3
+Khalid Khannouchi         3
+Bobbi Gibb                3
+Sara Mae Berman           3
+Lisa Weidenbach           2
+Meb Keflezighi            2
+Ellison Brown             2
+Tom Fleming               2
+Deena Kastor              2
+Dan Cloeter               2
+Greg Meyer                2
+John A. Kelley            2
+Kim Merritt               2
+Sammy Mellor              1
+Michael Spring            1
+Frederick Lorz            1
+John J. McDermott         1
+Carl Linder               1
+Michael J. Ryan           1
+Lisa Larsen Weidenbach    1
+Kathrine Switzer          1
+Norbert Sander            1
+Frank Zuna                1
+Phil Coppess              1
+                         ..
+Nancy Conz                1
+Mark Stanforth            1
+Fritz Carlson             1
+Dick Beardsley            1
+Laura Michalek            1
+Linda Somers              1
+Thomas Morrissey          1
+Dorothy Doolittle         1
+Lynae Larson              1
+Jacqueline Hansen         1
+Galen Rupp                1
+Desi Linden               1
+Frank Richardson          1
+Shalane Flanagan          1
+Gayle Barron              1
+Arthur Roth               1
+Tina Gandy                1
+Norman Higgins            1
+Joe Smith                 1
+James Henigan             1
+Henri Renaud              1
+Lawrence Brignolia        1
+Gary Muhrcke              1
+Sue Peterson              1
+Bill Kennedy              1
+John Lorden               1
+Jack Fultz                1
+Charles Mellor            1
+Kristy Johnston           1
+Tim Ford                  1
+Name: winner, Length: 64, dtype: int64

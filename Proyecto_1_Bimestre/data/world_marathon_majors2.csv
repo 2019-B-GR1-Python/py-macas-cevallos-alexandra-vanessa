@@ -1,0 +1,542 @@
+no;year;winner;gender;age;country;time;marathon
+1;2018;Dickson Chumba;Male;19;Kenya;04/05/2018 2:05;Tokyo
+2;2018;Birhane Dibaba;Female;20;Ethiopia;04/05/2018 2:19;Tokyo
+3;2017;Wilson Kipsang;Male;20;Kenya;04/05/2018 2:03;Tokyo
+4;2017;Sarah Chepchirchir;Female;20;Kenya;04/05/2018 2:19;Tokyo
+5;2016;Feyisa Lilesa;Male;20;Ethiopia;04/05/2018 2:06;Tokyo
+6;2016;Helah Kiprop;Female;21;Kenya;04/05/2018 2:21;Tokyo
+7;2015;Endeshaw Negesse;Male;21;Ethiopia;04/05/2018 2:06;Tokyo
+8;2015;Birhane Dibaba;Female;21;Ethiopia;04/05/2018 2:23;Tokyo
+9;2014;Dickson Chumba;Male;21;Kenya;04/05/2018 2:05;Tokyo
+10;2014;Tirfi Tsegaye;Female;21;Ethiopia;04/05/2018 2:22;Tokyo
+11;2013;Dennis Kimetto;Male;22;Kenya;04/05/2018 2:06;Tokyo
+12;2013;Aberu Kebede;Female;22;Ethiopia;04/05/2018 2:25;Tokyo
+13;2012;Michael Kipyego;Male;22;Kenya;04/05/2018 2:07;Tokyo
+14;2012;Atsede Habtamu;Female;22;Ethiopia;04/05/2018 2:25;Tokyo
+15;2011;Hailu Mekonnen;Male;22;Ethiopia;04/05/2018 2:07;Tokyo
+16;2011;Noriko Higuchi;Female;22;Japan;04/05/2018 2:28;Tokyo
+17;2010;Masakazu Fujiwara;Male;22;Japan;04/05/2018 2:12;Tokyo
+18;2010;Alevtina Biktimirova;Female;22;Russia;04/05/2018 2:34;Tokyo
+19;2009;Salim Kipsang;Male;22;Kenya;04/05/2018 2:10;Tokyo
+20;2009;Mizuho Nasukawa;Female;23;Japan;04/05/2018 2:25;Tokyo
+21;2008;Viktor Röthlin;Male;23;Switzerland;04/05/2018 2:07;Tokyo
+22;2008;Claudia Dreher;Female;23;Germany;04/05/2018 2:35;Tokyo
+23;2007;Daniel Njenga;Male;23;Kenya;04/05/2018 2:09;Tokyo
+24;2007;Hitomi Niiya;Female;23;Japan;04/05/2018 2:31;Tokyo
+25;2017;Eliud Kipchoge;Male;23;Kenya;04/05/2018 2:03;Berlin
+26;2017;Gladys Cherono;Female;23;Kenya;04/05/2018 2:20;Berlin
+27;2016;Kenenisa Bekele;Male;23;Ethiopia;04/05/2018 2:03;Berlin
+28;2016;Aberu Kebede;Female;24;Ethiopia;04/05/2018 2:20;Berlin
+29;2015;Eliud Kipchoge;Male;22;Kenya;04/05/2018 2:04;Berlin
+30;2015;Gladys Cherono;Female;24;Kenya;04/05/2018 2:19;Berlin
+31;2014;Dennis Kimetto;Male;24;Kenya;04/05/2018 2:02;Berlin
+32;2014;Tirfi Tsegaye;Female;24;Ethiopia;04/05/2018 2:20;Berlin
+33;2013;Wilson Kipsang;Male;24;Kenya;04/05/2018 2:03;Berlin
+34;2013;Florence Kiplagat;Female;24;Kenya;04/05/2018 2:21;Berlin
+35;2012;Geoffrey Mutai;Male;24;Kenya;04/05/2018 2:04;Berlin
+36;2012;Aberu Kebede;Female;23;Ethiopia;04/05/2018 2:20;Berlin
+37;2011;Patrick Musyoki;Male;21;Kenya;04/05/2018 2:03;Berlin
+38;2011;Florence Kiplagat;Female;24;Kenya;04/05/2018 2:19;Berlin
+39;2010;Patrick Musyoki;Male;25;Kenya;04/05/2018 2:05;Berlin
+40;2010;Aberu Kebede;Female;22;Ethiopia;04/05/2018 2:23;Berlin
+41;2009;Haile Gebrselassie;Male;25;Ethiopia;04/05/2018 2:06;Berlin
+42;2009;Atsede Habtamu;Female;25;Ethiopia;04/05/2018 2:24;Berlin
+43;2008;Haile Gebrselassie;Male;25;Ethiopia;04/05/2018 2:03;Berlin
+44;2008;Irina Mikitenko;Female;25;Germany;04/05/2018 2:19;Berlin
+45;2007;Haile Gebrselassie;Male;25;Ethiopia;04/05/2018 2:04;Berlin
+46;2007;Gete Wami;Female;22;Ethiopia;04/05/2018 2:23;Berlin
+47;2006;Haile Gebrselassie;Male;25;Ethiopia;04/05/2018 2:05;Berlin
+48;2006;Gete Wami;Female;25;Ethiopia;04/05/2018 2:21;Berlin
+49;2005;Philip Manyim;Male;25;Kenya;04/05/2018 2:07;Berlin
+50;2005;Noguchi;Female;25;Japan;04/05/2018 2:19;Berlin
+51;2004;Felix Limo;Male;25;Kenya;04/05/2018 2:06;Berlin
+52;2004;Yoko Shibui;Female;25;Japan;04/05/2018 2:19;Berlin
+53;2003;Paul Tergat;Male;25;Kenya;04/05/2018 2:04;Berlin
+54;2003;Yasuko Hashimoto;Female;25;Japan;04/05/2018 2:26;Berlin
+55;2002;Raymond Kipkoech;Male;25;Kenya;04/05/2018 2:06;Berlin
+56;2002;Naoko Takahashi;Female;25;Japan;04/05/2018 2:21;Berlin
+57;2001;Joseph Ngolepus;Male;25;Kenya;04/05/2018 2:08;Berlin
+58;2001;Naoko Takahashi;Female;25;Japan;04/05/2018 2:19;Berlin
+59;2000;Simon Biwott;Male;25;Kenya;04/05/2018 2:07;Berlin
+60;2000;Kazumi Matsuo;Female;25;Japan;04/05/2018 2:26;Berlin
+61;1999;Josephat Kiprono;Male;28;Kenya;04/05/2018 2:06;Berlin
+62;1999;Tegla Loroupe;Female;25;Kenya;04/05/2018 2:20;Berlin
+63;1998;Ronaldo da Costa;Male;25;Brazil;04/05/2018 2:06;Berlin
+64;1998;Marleen Renders;Female;25;Belgium;04/05/2018 2:25;Berlin
+65;1997;Elijah Lagat;Male;25;Kenya;04/05/2018 2:07;Berlin
+66;1997;Catherina McKiernan;Female;25;Ireland;04/05/2018 2:23;Berlin
+67;1996;Abel Antón;Male;26;Spain;04/05/2018 2:09;Berlin
+68;1996;Colleen De Reuck;Female;26;South Africa;04/05/2018 2:26;Berlin
+69;1995;Sammy Lelei;Male;26;Kenya;04/05/2018 2:07;Berlin
+70;1995;Uta Pippig;Female;26;Germany;04/05/2018 2:25;Berlin
+71;1994;António Pinto;Male;26;Portugal;04/05/2018 2:08;Berlin
+72;1994;Katrin Dörre-Heinig;Female;26;Germany;04/05/2018 2:25;Berlin
+73;1993;Xolile Yawa;Male;26;South Africa;04/05/2018 2:10;Berlin
+74;1993;Renata Kokowska;Female;24;Poland;04/05/2018 2:26;Berlin
+75;1992;David Tsebe;Male;26;South Africa;04/05/2018 2:08;Berlin
+76;1992;Uta Pippig;Female;26;Germany;04/05/2018 2:30;Berlin
+77;1991;Steve Brace;Male;26;United Kingdom;04/05/2018 2:10;Berlin
+78;1991;Renata Kokowska;Female;26;Poland;04/05/2018 2:27;Berlin
+79;1990;Steve Moneghetti;Male;26;Australia;04/05/2018 2:08;Berlin
+80;1990;Uta Pippig;Female;26;Germany;04/05/2018 2:28;Berlin
+81;1989;Alfredo Shahanga;Male;26;Tanzania;04/05/2018 2:10;Berlin
+82;1989;Päivi Tikkanen;Female;27;Finland;04/05/2018 2:28;Berlin
+83;1988;Suleiman Nyambui;Male;27;Tanzania;04/05/2018 2:11;Berlin
+84;1988;Renata Kokowska;Female;27;Poland;04/05/2018 2:29;Berlin
+85;1987;Suleiman Nyambui;Male;27;Tanzania;04/05/2018 2:11;Berlin
+86;1987;Kerstin Preßler;Female;27;Germany;04/05/2018 2:31;Berlin
+87;1986;Boguslaw Psujek;Male;27;Poland;04/05/2018 2:11;Berlin
+88;1986;Charlotte Teske;Female;27;Germany;04/05/2018 2:32;Berlin
+89;1985;Jimmy Ashworth;Male;27;United Kingdom;04/05/2018 2:11;Berlin
+90;1985;Magda Ilands;Female;27;Belgium;04/05/2018 2:34;Berlin
+91;1984;John Skovbjerg;Male;27;Denmark;04/05/2018 2:13;Berlin
+92;1984;Ágnes Sipka;Female;27;Hungary;04/05/2018 2:39;Berlin
+93;1983;Karel Lismont;Male;27;Belgium;04/05/2018 2:13;Berlin
+94;1983;Karen Holdsworth;Female;27;United Kingdom;04/05/2018 2:40;Berlin
+95;1982;Domingo Tibaduiza;Male;27;Colombia;04/05/2018 2:14;Berlin
+96;1982;Jean Lochhead;Female;27;United Kingdom;04/05/2018 2:47;Berlin
+97;1981;Ian Ray;Male;27;United Kingdom;04/05/2018 2:15;Berlin
+98;1981;Angelika Stephan;Female;28;Germany;04/05/2018 2:47;Berlin
+99;1980;Ingo Sensburg;Male;28;Germany;04/05/2018 2:16;Berlin
+100;1980;Gerlinde Püttmann;Female;28;Germany;04/05/2018 2:47;Berlin
+101;1979;Ingo Sensburg;Male;28;Germany;04/05/2018 2:21;Berlin
+102;1979;Jutta von Haase;Female;28;Germany;04/05/2018 3:07;Berlin
+103;1978;Michael Spöttel;Male;28;Germany;04/05/2018 2:20;Berlin
+104;1978;Ursula Blaschke;Female;28;Germany;04/05/2018 2:57;Berlin
+105;1977;Günter Mielke;Male;28;Germany;04/05/2018 2:15;Berlin
+106;1977;Christa Vahlensieck;Female;28;Germany;04/05/2018 2:34;Berlin
+107;1976;Ingo Sensburg;Male;28;Germany;04/05/2018 2:23;Berlin
+108;1976;Jutta von Haase;Female;28;Germany;04/05/2018 3:05;Berlin
+109;1975;Ralf Bochröder;Male;28;Germany;04/05/2018 2:47;Berlin
+110;1975;Christin Bochröder;Female;28;Germany;04/05/2018 2:59;Berlin
+111;1974;Günter Hallas;Male;28;Germany;04/05/2018 2:44;Berlin
+112;1974;Jutta von Haase;Female;28;Germany;04/05/2018 3:22;Berlin
+113;2018;Yuki Kawauchi;Male;28;Japan;04/05/2018 2:15;Boston
+114;2018;Desi Linden;Female;28;United States;04/05/2018 2:39;Boston
+115;2017;Geoffrey Kirui;Male;28;Kenya;04/05/2018 2:09;Boston
+116;2017;Edna Kiplagat;Female;28;Kenya;04/05/2018 2:21;Boston
+117;2016;Lemi Berhanu Hayle;Male;28;Ethiopia;04/05/2018 2:12;Boston
+118;2016;Atsede Baysa;Female;28;Ethiopia;04/05/2018 2:29;Boston
+119;2015;Lelisa Desisa Benti;Male;28;Ethiopia;04/05/2018 2:09;Boston
+120;2015;Caroline Rotich;Female;28;Kenya;04/05/2018 2:24;Boston
+121;2014;Meb Keflezighi;Male;29;United States;04/05/2018 2:08;Boston
+122;2014;Rita Jeptoo;Female;22;Kenya;04/05/2018 2:18;Boston
+123;2014;Bizunesh Deba;Female;21;Ethiopia;04/05/2018 2:19;Boston
+124;2013;Lelisa Desisa Benti;Male;29;Ethiopia;04/05/2018 2:10;Boston
+125;2013;Rita Jeptoo;Female;29;Kenya;04/05/2018 2:26;Boston
+126;2012;Wesley Korir;Male;25;Kenya;04/05/2018 2:12;Boston
+127;2012;Sharon Cherop;Female;29;Kenya;04/05/2018 2:31;Boston
+128;2011;Geoffrey Mutai;Male;29;Kenya;04/05/2018 2:03;Boston
+129;2011;Caroline Kilel;Female;29;Kenya;04/05/2018 2:22;Boston
+130;2010;Robert Kiprono Cheruiyot;Male;29;Kenya;04/05/2018 2:05;Boston
+131;2010;Teyba Erkesso;Female;29;Ethiopia;04/05/2018 2:26;Boston
+132;2009;Deriba Merga;Male;29;Ethiopia;04/05/2018 2:08;Boston
+133;2009;Salina Kosgei;Female;29;Kenya;04/05/2018 2:32;Boston
+134;2008;Robert Kipkoech Cheruiyot;Male;29;Kenya;04/05/2018 2:07;Boston
+135;2008;Dire Tune;Female;29;Ethiopia;04/05/2018 2:25;Boston
+136;2007;Robert Kipkoech Cheruiyot;Male;24;Kenya;04/05/2018 2:14;Boston
+137;2007;Lidiya Grigoryeva;Female;29;Russia;04/05/2018 2:29;Boston
+138;2006;Robert Kipkoech Cheruiyot;Male;29;Kenya;04/05/2018 2:07;Boston
+139;2006;Rita Jeptoo;Female;29;Kenya;04/05/2018 2:23;Boston
+140;2005;Hailu Negussie;Male;29;Ethiopia;04/05/2018 2:11;Boston
+141;2005;Catherine Ndereba;Female;22;Kenya;04/05/2018 2:25;Boston
+142;2004;Timothy Cherigat;Male;29;Kenya;04/05/2018 2:10;Boston
+143;2004;Catherine Ndereba;Female;22;Kenya;04/05/2018 2:24;Boston
+144;2003;Robert Kipkoech Cheruiyot;Male;30;Kenya;04/05/2018 2:10;Boston
+145;2003;Svetlana Zakharova;Female;30;Russia;04/05/2018 2:25;Boston
+146;2002;Rodgers Rop;Male;30;Kenya;04/05/2018 2:09;Boston
+147;2002;Margaret Okayo;Female;30;Kenya;04/05/2018 2:20;Boston
+148;2001;Lee Bong-Ju;Male;30;South Korea;04/05/2018 2:09;Boston
+149;2001;Catherine Ndereba;Female;30;Kenya;04/05/2018 2:23;Boston
+150;2000;Elijah Lagat;Male;30;Kenya;04/05/2018 2:09;Boston
+151;2000;Catherine Ndereba;Female;23;Kenya;04/05/2018 2:26;Boston
+152;1999;Joseph Chebet;Male;30;Kenya;04/05/2018 2:09;Boston
+153;1999;Fatuma Roba;Female;30;Ethiopia;04/05/2018 2:23;Boston
+154;1998;Moses Tanui;Male;30;Kenya;04/05/2018 2:07;Boston
+155;1998;Fatuma Roba;Female;30;Ethiopia;04/05/2018 2:23;Boston
+156;1997;Lameck Aguta;Male;30;Kenya;04/05/2018 2:10;Boston
+157;1997;Fatuma Roba;Female;23;Ethiopia;04/05/2018 2:26;Boston
+158;1996;Moses Tanui;Male;30;Kenya;04/05/2018 2:09;Boston
+159;1996;Uta Pippig;Female;30;Germany;04/05/2018 2:27;Boston
+160;1995;Cosmas Ndeti;Male;30;Kenya;04/05/2018 2:09;Boston
+161;1995;Uta Pippig;Female;31;Germany;04/05/2018 2:25;Boston
+162;1994;Cosmas Ndeti;Male;31;Kenya;04/05/2018 2:07;Boston
+163;1994;Uta Pippig;Female;31;Germany;04/05/2018 2:21;Boston
+164;1993;Cosmas Ndeti;Male;31;Kenya;04/05/2018 2:09;Boston
+165;1993;Olga Markova;Female;31;Russia;04/05/2018 2:25;Boston
+166;1992;Ibrahim Hussein;Male;31;Kenya;04/05/2018 2:08;Boston
+167;1992;Olga Markova;Female;31;Russia;04/05/2018 2:23;Boston
+168;1991;Ibrahim Hussein;Male;31;Kenya;04/05/2018 2:11;Boston
+169;1991;Wanda Panfil;Female;31;Poland;04/05/2018 2:24;Boston
+170;1990;Gelindo Bordin;Male;31;Italy;04/05/2018 2:08;Boston
+171;1990;Rosa Mota;Female;31;Portugal;04/05/2018 2:25;Boston
+172;1989;Abebe Mekonnen;Male;31;Ethiopia;04/05/2018 2:09;Boston
+173;1989;Ingrid Kristiansen;Female;31;Norway;04/05/2018 2:24;Boston
+174;1988;Ibrahim Hussein;Male;31;Kenya;04/05/2018 2:08;Boston
+175;1988;Rosa Mota;Female;31;Portugal;04/05/2018 2:24;Boston
+176;1987;Toshihiko Seko;Male;31;Japan;04/05/2018 2:11;Boston
+177;1987;Rosa Mota;Female;31;Portugal;04/05/2018 2:25;Boston
+178;1986;Robert de Castella;Male;31;Australia;04/05/2018 2:07;Boston
+179;1986;Ingrid Kristiansen;Female;31;Norway;04/05/2018 2:24;Boston
+180;1985;Geoff Smith;Male;32;United Kingdom;04/05/2018 2:14;Boston
+181;1985;Lisa Larsen Weidenbach;Female;32;United States;04/05/2018 2:34;Boston
+182;1984;Geoff Smith;Male;32;United Kingdom;04/05/2018 2:10;Boston
+183;1984;Lorraine Moller;Female;32;New Zealand;04/05/2018 2:29;Boston
+184;1983;Greg Meyer;Male;32;United States;04/05/2018 2:09;Boston
+185;1983;Joan Benoit;Female;32;United States;04/05/2018 2:22;Boston
+186;1982;Alberto Salazar;Male;32;United States;04/05/2018 2:08;Boston
+187;1982;Charlotte Teske;Female;32;Germany;04/05/2018 2:29;Boston
+188;1981;Toshihiko Seko;Male;32;Japan;04/05/2018 2:09;Boston
+189;1981;Allison Roe;Female;32;New Zealand;04/05/2018 2:26;Boston
+190;1980;Bill Rodgers;Male;32;United States;04/05/2018 2:12;Boston
+191;1980;Jacqueline Gareau;Female;32;Canada;04/05/2018 2:34;Boston
+192;1979;Bill Rodgers;Male;32;United States;04/05/2018 2:09;Boston
+193;1979;Joan Benoit;Female;33;United States;04/05/2018 2:35;Boston
+194;1978;Bill Rodgers;Male;33;United States;04/05/2018 2:10;Boston
+195;1978;Gayle Barron;Female;33;United States;04/05/2018 2:44;Boston
+196;1977;Jerome Drayton;Male;33;Canada;04/05/2018 2:14;Boston
+197;1977;Miki Gorman;Female;33;United States;04/05/2018 2:48;Boston
+198;1976;Jack Fultz;Male;33;United States;04/05/2018 2:20;Boston
+199;1976;Kim Merritt;Female;33;United States;04/05/2018 2:47;Boston
+200;1975;Bill Rodgers;Male;33;United States;04/05/2018 2:09;Boston
+201;1975;Liane Winter;Female;33;Germany;04/05/2018 2:42;Boston
+202;1974;Neil Cusack;Male;33;Ireland;04/05/2018 2:13;Boston
+203;1974;Miki Gorman;Female;33;United States;04/05/2018 2:47;Boston
+204;1973;Jon Anderson;Male;33;United States;04/05/2018 2:16;Boston
+205;1973;Jacqueline Hansen;Female;34;United States;04/05/2018 3:05;Boston
+206;1972;Olavi Suomalainen;Male;34;Finland;04/05/2018 2:15;Boston
+207;1972;Nina Kuscsik;Female;34;United States;04/05/2018 3:10;Boston
+208;1971;Álvaro Mejía;Male;34;Colombia;04/05/2018 2:18;Boston
+209;1971;Sara Mae Berman;Female;34;United States;04/05/2018 3:08;Boston
+210;1970;Ron Hill;Male;34;United Kingdom;04/05/2018 2:10;Boston
+211;1970;Sara Mae Berman;Female;34;United States;04/05/2018 3:05;Boston
+212;1969;Yoshiaki Unetani;Male;34;Japan;04/05/2018 2:13;Boston
+213;1969;Sara Mae Berman;Female;34;United States;04/05/2018 3:22;Boston
+214;1968;Amby Burfoot;Male;35;United States;04/05/2018 2:22;Boston
+215;1968;Bobbi Gibb;Female;35;United States;04/05/2018 3:30;Boston
+216;1967;Dave McKenzie;Male;35;New Zealand;04/05/2018 2:15;Boston
+217;1967;Bobbi Gibb;Female;35;United States;04/05/2018 3:27;Boston
+218;1966;Kenji Kimihara;Male;36;Japan;04/05/2018 2:17;Boston
+219;1966;Bobbi Gibb;Female;36;United States;04/05/2018 3:21;Boston
+220;1965;Morio Shigematsu;Male;35;Japan;04/05/2018 2:16;Boston
+221;1964;Aurèle Vandendriessche;Male;36;Belgium;04/05/2018 2:19;Boston
+222;1963;Aurèle Vandendriessche;Male;37;Belgium;04/05/2018 2:18;Boston
+223;1962;Eino Oksanen;Male;38;Finland;04/05/2018 2:23;Boston
+224;1961;Eino Oksanen;Male;39;Finland;04/05/2018 2:23;Boston
+225;1960;Paavo Kotila;Male;43;Finland;04/05/2018 2:20;Boston
+226;1959;Eino Oksanen;Male;44;Finland;04/05/2018 2:22;Boston
+227;1958;Franjo Mihalic;Male;50;Yugoslavia;04/05/2018 2:25;Boston
+228;1957;John J. Kelley;Male;40;United States;04/05/2018 2:20;Boston
+229;1956;Antti Viskari;Male;35;Finland;04/05/2018 2:14;Boston
+230;1955;Hideo Hamamura;Male;30;Japan;04/05/2018 2:18;Boston
+231;1954;Veikko Karvonen;Male;30;Finland;04/05/2018 2:20;Boston
+232;1953;Keizo Yamada;Male;20;Japan;04/05/2018 2:18;Boston
+233;1952;Doroteo Flores;Male;20;Guatemala;04/05/2018 2:31;Boston
+234;1951;Shigeki Tanaka;Male;30;Japan;04/05/2018 2:27;Boston
+235;1950;Ham Kee-Yong;Male;40;South Korea;04/05/2018 2:32;Boston
+236;1949;Gösta Leandersson;Male;40;Sweden;04/05/2018 2:31;Boston
+237;1948;Gérard Côté;Male;45;Canada;04/05/2018 2:31;Boston
+238;1947;Suh Yun-bok;Male;40;South Korea;04/05/2018 2:25;Boston
+239;1946;Stylianos Kyriakides;Male;45;Greece;04/05/2018 2:29;Boston
+240;1945;John A. Kelley;Male;40;United States;04/05/2018 2:30;Boston
+241;1944;Gérard Côté;Male;30;Canada;04/05/2018 2:31;Boston
+242;1943;Gérard Côté;Male;30;Canada;04/05/2018 2:28;Boston
+243;1942;Joe Smith;Male;35;United States;04/05/2018 2:26;Boston
+244;1941;Leslie S. Pawson;Male;45;United States;04/05/2018 2:30;Boston
+245;1940;Gérard Côté;Male;35;Canada;04/05/2018 2:28;Boston
+246;1939;Ellison Brown;Male;30;United States;04/05/2018 2:28;Boston
+247;1938;Leslie S. Pawson;Male;45;United States;04/05/2018 2:35;Boston
+248;1937;Walter Young;Male;40;Canada;04/05/2018 2:33;Boston
+249;1936;Ellison Brown;Male;35;United States;04/05/2018 2:33;Boston
+250;1935;John A. Kelley;Male;50;United States;04/05/2018 2:32;Boston
+251;1934;Dave Komonen;Male;30;Canada;04/05/2018 2:32;Boston
+252;1933;Leslie S. Pawson;Male;20;United States;04/05/2018 2:31;Boston
+253;1932;Paul de Bruyn;Male;35;Germany;04/05/2018 2:33;Boston
+254;1931;James Henigan;Male;35;United States;04/05/2018 2:46;Boston
+255;1930;Clarence DeMar;Male;45;United States;04/05/2018 2:34;Boston
+256;1929;Johnny Miles;Male;35;Canada;04/05/2018 2:33;Boston
+257;1928;Clarence DeMar;Male;50;United States;04/05/2018 2:37;Boston
+258;1927;Clarence DeMar;Male;30;United States;04/05/2018 2:40;Boston
+259;1926;Johnny Miles;Male;35;Canada;04/05/2018 2:25;Boston
+260;1925;Charles Mellor;Male;20;United States;04/05/2018 2:33;Boston
+261;1924;Clarence DeMar;Male;35;United States;04/05/2018 2:29;Boston
+262;1923;Clarence DeMar;Male;40;United States;04/05/2018 2:23;Boston
+263;1922;Clarence DeMar;Male;50;United States;04/05/2018 2:18;Boston
+264;1921;Frank Zuna;Male;35;United States;04/05/2018 2:18;Boston
+265;1920;Peter Trivoulides;Male;40;Greece;04/05/2018 2:29;Boston
+266;1919;Carl Linder;Male;40;United States;04/05/2018 2:29;Boston
+267;1918;NA;NA;20;NA;NA;Boston
+268;1917;Bill Kennedy;Male;30;United States;04/05/2018 2:28;Boston
+269;1916;Arthur Roth;Male;40;United States;04/05/2018 2:27;Boston
+270;1915;Édouard Fabre;Male;20;Canada;04/05/2018 2:31;Boston
+271;1914;James Duffy;Male;35;Canada;04/05/2018 2:25;Boston
+272;1913;Fritz Carlson;Male;50;United States;04/05/2018 2:25;Boston
+273;1912;Michael J. Ryan;Male;20;United States;04/05/2018 2:21;Boston
+274;1911;Clarence DeMar;Male;35;United States;04/05/2018 2:21;Boston
+275;1910;Fred Cameron;Male;30;Canada;04/05/2018 2:28;Boston
+276;1909;Henri Renaud;Male;35;United States;04/05/2018 2:53;Boston
+277;1908;Thomas Morrissey;Male;40;United States;04/05/2018 2:25;Boston
+278;1907;Thomas Longboat;Male;30;Canada;04/05/2018 2:24;Boston
+279;1906;Tim Ford;Male;40;United States;04/05/2018 2:45;Boston
+280;1905;Frederick Lorz;Male;35;United States;04/05/2018 2:38;Boston
+281;1904;Michael Spring;Male;30;United States;04/05/2018 2:38;Boston
+282;1903;John Lorden;Male;50;United States;04/05/2018 2:41;Boston
+283;1902;Sammy Mellor;Male;45;United States;04/05/2018 2:43;Boston
+284;1901;Jack Caffery;Male;40;Canada;04/05/2018 2:29;Boston
+285;1900;Jack Caffery;Male;30;Canada;04/05/2018 2:39;Boston
+286;1899;Lawrence Brignolia;Male;20;United States;04/05/2018 2:54;Boston
+287;1898;Ronald J. MacDonald;Male;30;Canada;04/05/2018 2:42;Boston
+288;1897;John J. McDermott;Male;30;United States;04/05/2018 2:55;Boston
+289;2017;Geoffrey Kamworor;Male;20;Kenya;04/05/2018 2:10;NYC
+290;2017;Shalane Flanagan;Female;35;United States;04/05/2018 2:26;NYC
+291;2016;Ghirmay Ghebreslassie;Male;40;Eritrea;04/05/2018 2:07;NYC
+292;2016;Mary Keitany;Female;45;Kenya;04/05/2018 2:24;NYC
+293;2015;Stanley Biwott;Male;20;Kenya;04/05/2018 2:10;NYC
+294;2015;Mary Keitany;Female;50;Kenya;04/05/2018 2:24;NYC
+295;2014;Wilson Kipsang;Male;40;Kenya;04/05/2018 2:10;NYC
+296;2014;Mary Keitany;Female;30;Kenya;04/05/2018 2:25;NYC
+297;2013;Geoffrey Mutai;Male;35;Kenya;04/05/2018 2:08;NYC
+298;2013;Priscah Jeptoo;Female;35;Kenya;04/05/2018 2:25;NYC
+299;2012;NA;NA;35;NA;NA;NYC
+300;2012;NA;NA;35;NA;NA;NYC
+301;2011;Geoffrey Mutai;Male;40;Kenya;04/05/2018 2:05;NYC
+302;2011;Firehiwot Dado;Female;35;Ethiopia;04/05/2018 2:23;NYC
+303;2010;Gebregziabher Gebremariam;Male;30;Ethiopia;04/05/2018 2:08;NYC
+304;2010;Edna Kiplagat;Female;30;Kenya;04/05/2018 2:28;NYC
+305;2009;Meb Keflezighi;Male;40;United States;04/05/2018 2:09;NYC
+306;2009;Derartu Tulu;Female;35;Ethiopia;04/05/2018 2:28;NYC
+307;2008;Marílson Gomes dos Santos;Male;30;Brazil;04/05/2018 2:08;NYC
+308;2008;Paula Radcliffe;Female;50;United Kingdom;04/05/2018 2:23;NYC
+309;2007;Martin Lel;Male;40;Kenya;04/05/2018 2:09;NYC
+310;2007;Paula Radcliffe;Female;35;United Kingdom;04/05/2018 2:23;NYC
+311;2006;Marílson Gomes dos Santos;Male;35;Brazil;04/05/2018 2:09;NYC
+312;2006;Jelena Prokopcuka;Female;35;Latvia;04/05/2018 2:25;NYC
+313;2005;Paul Tergat;Male;35;Kenya;04/05/2018 2:09;NYC
+314;2005;Jelena Prokopcuka;Female;30;Latvia;04/05/2018 2:24;NYC
+315;2004;Hendrick Ramaala;Male;40;South Africa;04/05/2018 2:09;NYC
+316;2004;Paula Radcliffe;Female;30;United Kingdom;04/05/2018 2:23;NYC
+317;2003;Martin Lel;Male;45;Kenya;04/05/2018 2:10;NYC
+318;2003;Margaret Okayo;Female;45;Kenya;04/05/2018 2:22;NYC
+319;2002;Rodgers Rop;Male;45;Kenya;04/05/2018 2:08;NYC
+320;2002;Joyce Chepchumba;Female;20;Kenya;04/05/2018 2:25;NYC
+321;2001;Tesfaye Jifar;Male;35;Ethiopia;04/05/2018 2:07;NYC
+322;2001;Margaret Okayo;Female;45;Kenya;04/05/2018 2:24;NYC
+323;2000;Abdelkader El Mouaziz;Male;20;Morocco;04/05/2018 2:10;NYC
+324;2000;Lyudmila Petrova;Female;20;Russia;04/05/2018 2:25;NYC
+325;1999;Joseph Chebet;Male;20;Kenya;04/05/2018 2:09;NYC
+326;1999;Adriana Fernandez;Female;20;Mexico;04/05/2018 2:25;NYC
+327;1998;John Kagwe;Male;30;Kenya;04/05/2018 2:08;NYC
+328;1998;Franca Fiacconi;Female;40;Italy;04/05/2018 2:25;NYC
+329;1997;John Kagwe;Male;30;Kenya;04/05/2018 2:08;NYC
+330;1997;Franziska Rochat-Moser;Female;40;Switzerland;04/05/2018 2:28;NYC
+331;1996;Giacomo Leone;Male;35;Italy;04/05/2018 2:09;NYC
+332;1996;Anuta Catuna;Female;40;Romania;04/05/2018 2:28;NYC
+333;1995;Germán Silva;Male;40;Mexico;04/05/2018 2:11;NYC
+334;1995;Tegla Loroupe;Female;45;Kenya;04/05/2018 2:28;NYC
+335;1994;Germán Silva;Male;35;Mexico;04/05/2018 2:11;NYC
+336;1994;Tegla Loroupe;Female;40;Kenya;04/05/2018 2:27;NYC
+337;1993;Andrés Espinosa;Male;45;Mexico;04/05/2018 2:10;NYC
+338;1993;Uta Pippig;Female;45;Germany;04/05/2018 2:26;NYC
+339;1992;Willie Mtolo;Male;40;South Africa;04/05/2018 2:09;NYC
+340;1992;Lisa Ondieki;Female;30;Australia;04/05/2018 2:24;NYC
+341;1991;Salvador García;Male;30;Mexico;04/05/2018 2:09;NYC
+342;1991;Liz McColgan;Female;30;United Kingdom;04/05/2018 2:27;NYC
+343;1990;Douglas Wakiihuri;Male;45;Kenya;04/05/2018 2:12;NYC
+344;1990;Wanda Panfil;Female;40;Poland;04/05/2018 2:30;NYC
+345;1989;Juma Ikangaa;Male;30;Tanzania;04/05/2018 2:08;NYC
+346;1989;Ingrid Kristiansen;Female;30;Norway;04/05/2018 2:25;NYC
+347;1988;Steve Jones;Male;30;United Kingdom;04/05/2018 2:08;NYC
+348;1988;Grete Waitz;Female;45;Norway;04/05/2018 2:28;NYC
+349;1987;Ibrahim Hussein;Male;30;Kenya;04/05/2018 2:11;NYC
+350;1987;Priscilla Welch;Female;45;United Kingdom;04/05/2018 2:30;NYC
+351;1986;Gianni Poli;Male;40;Italy;04/05/2018 2:11;NYC
+352;1986;Grete Waitz;Female;40;Norway;04/05/2018 2:28;NYC
+353;1985;Orlando Pizzolato;Male;30;Italy;04/05/2018 2:11;NYC
+354;1985;Grete Waitz;Female;40;Norway;04/05/2018 2:28;NYC
+355;1984;Orlando Pizzolato;Male;30;Italy;04/05/2018 2:14;NYC
+356;1984;Grete Waitz;Female;30;Norway;04/05/2018 2:29;NYC
+357;1983;Rod Dixon;Male;45;New Zealand;04/05/2018 2:08;NYC
+358;1983;Grete Waitz;Female;50;Norway;04/05/2018 2:27;NYC
+359;1982;Alberto Salazar;Male;30;United States;04/05/2018 2:09;NYC
+360;1982;Grete Waitz;Female;35;Norway;04/05/2018 2:27;NYC
+361;1981;Alberto Salazar;Male;20;United States;04/05/2018 2:08;NYC
+362;1981;Allison Roe;Female;40;New Zealand;04/05/2018 2:25;NYC
+363;1980;Alberto Salazar;Male;40;United States;04/05/2018 2:09;NYC
+364;1980;Grete Waitz;Female;20;Norway;04/05/2018 2:25;NYC
+365;1979;Bill Rodgers;Male;30;United States;04/05/2018 2:11;NYC
+366;1979;Grete Waitz;Female;30;Norway;04/05/2018 2:27;NYC
+367;1978;Bill Rodgers;Male;45;United States;04/05/2018 2:12;NYC
+368;1978;Grete Waitz;Female;35;Norway;04/05/2018 2:32;NYC
+369;1977;Bill Rodgers;Male;30;United States;04/05/2018 2:11;NYC
+370;1977;Miki Gorman;Female;40;United States;04/05/2018 2:43;NYC
+371;1976;Bill Rodgers;Male;40;United States;04/05/2018 2:10;NYC
+372;1976;Miki Gorman;Female;35;United States;04/05/2018 2:39;NYC
+373;1975;Tom Fleming;Male;30;United States;04/05/2018 2:19;NYC
+374;1975;Kim Merritt;Female;40;United States;04/05/2018 2:46;NYC
+375;1974;Norbert Sander;Male;45;United States;04/05/2018 2:26;NYC
+376;1974;Kathrine Switzer;Female;45;United States;04/05/2018 3:07;NYC
+377;1973;Tom Fleming;Male;45;United States;04/05/2018 2:21;NYC
+378;1973;Nina Kuscsik;Female;20;United States;04/05/2018 2:57;NYC
+379;1972;Sheldon Karlin;Male;40;United States;04/05/2018 2:27;NYC
+380;1972;Nina Kuscsik;Female;50;United States;04/05/2018 3:08;NYC
+381;1971;Norman Higgins;Male;30;United States;04/05/2018 2:22;NYC
+382;1970;Gary Muhrcke;Male;20;United States;04/05/2018 2:31;NYC
+383;2018;Eliud Kipchoge;Male;20;Kenya;04/05/2018 2:04;London
+384;2017;Daniel Wanjiru;Male;45;Kenya;04/05/2018 2:05;London
+385;2017;Mary Keitany;Female;45;Kenya;04/05/2018 2:17;London
+386;2016;Eliud Kipchoge;Male;40;Kenya;04/05/2018 2:03;London
+387;2016;Jemima Sumgong;Female;30;Kenya;04/05/2018 2:22;London
+388;2015;Eliud Kipchoge;Male;35;Kenya;04/05/2018 2:04;London
+389;2015;Tigist Tufa;Female;40;Ethiopia;04/05/2018 2:23;London
+390;2014;Wilson Kipsang;Male;35;Kenya;04/05/2018 2:04;London
+391;2014;Edna Kiplagat;Female;35;Kenya;04/05/2018 2:20;London
+392;2013;Tsegaye Kebede;Male;35;Ethiopia;04/05/2018 2:06;London
+393;2013;Priscah Jeptoo;Female;45;Kenya;04/05/2018 2:20;London
+394;2012;Wilson Kipsang;Male;40;Kenya;04/05/2018 2:04;London
+395;2012;Mary Keitany;Female;30;Kenya;04/05/2018 2:18;London
+396;2011;Emmanuel Mutai;Male;45;Kenya;04/05/2018 2:04;London
+397;2011;Mary Keitany;Female;20;Kenya;04/05/2018 2:19;London
+398;2010;Tsegaye Kebede;Male;30;Ethiopia;04/05/2018 2:05;London
+399;2010;Aselefech Mergia;Female;40;Ethiopia;04/05/2018 2:22;London
+400;2009;Samuel Wanjiru;Male;35;Kenya;04/05/2018 2:05;London
+401;2009;Irina Mikitenko;Female;35;Germany;04/05/2018 2:22;London
+402;2008;Martin Lel;Male;30;Kenya;04/05/2018 2:05;London
+403;2008;Irina Mikitenko;Female;20;Germany;04/05/2018 2:24;London
+404;2007;Martin Lel;Male;30;Kenya;04/05/2018 2:07;London
+405;2007;Zhou Chunxiu;Female;35;China;04/05/2018 2:20;London
+406;2006;Felix Limo;Male;20;Kenya;04/05/2018 2:06;London
+407;2006;Deena Kastor;Female;40;United States;04/05/2018 2:19;London
+408;2005;Martin Lel;Male;20;Kenya;04/05/2018 2:07;London
+409;2005;Paula Radcliffe;Female;50;United Kingdom;04/05/2018 2:17;London
+410;2004;Evans Rutto;Male;30;Kenya;04/05/2018 2:06;London
+411;2004;Margaret Okayo;Female;50;Kenya;04/05/2018 2:22;London
+412;2003;Gezahegne Abera;Male;20;Ethiopia;04/05/2018 2:07;London
+413;2003;Paula Radcliffe;Female;35;United Kingdom;04/05/2018 2:15;London
+414;2002;Khalid Khannouchi;Male;40;United States;04/05/2018 2:05;London
+415;2002;Paula Radcliffe;Female;40;United Kingdom;04/05/2018 2:18;London
+416;2001;Abdelkader El Mouaziz;Male;35;Morocco;04/05/2018 2:07;London
+417;2001;Derartu Tulu;Female;35;Ethiopia;04/05/2018 2:23;London
+418;2000;António Pinto;Male;30;Portugal;04/05/2018 2:06;London
+419;2000;Tegla Laroupe;Female;40;Kenya;04/05/2018 2:24;London
+420;1999;Abdelkader El Mouaziz;Male;40;Morocco;04/05/2018 2:07;London
+421;1999;Joyce Chepchumba;Female;45;Kenya;04/05/2018 2:23;London
+422;1998;Abel Antón;Male;50;Spain;04/05/2018 2:07;London
+423;1998;Catherina McKiernan;Female;40;Ireland;04/05/2018 2:26;London
+424;1997;António Pinto;Male;40;Portugal;04/05/2018 2:07;London
+425;1997;Joyce Chepchumba;Female;30;Kenya;04/05/2018 2:26;London
+426;1996;Dionicio Cerón;Male;20;Mexico;04/05/2018 2:10;London
+427;1996;Liz McColgan;Female;40;United Kingdom;04/05/2018 2:27;London
+428;1995;Dionicio Cerón;Male;45;Mexico;04/05/2018 2:08;London
+429;1995;Malgorzata Sobanska;Female;20;Poland;04/05/2018 2:27;London
+430;1994;Dionicio Cerón;Male;30;Mexico;04/05/2018 2:08;London
+431;1994;Katrin Dörre-Heinig;Female;30;Germany;04/05/2018 2:32;London
+432;1993;Eamonn Martin;Male;40;United Kingdom;04/05/2018 2:10;London
+433;1993;Katrin Dörre-Heinig;Female;40;Germany;04/05/2018 2:27;London
+434;1992;António Pinto;Male;45;Portugal;04/05/2018 2:10;London
+435;1992;Katrin Dörre-Heinig;Female;55;Germany;04/05/2018 2:29;London
+436;1991;Yakov Tolstikov;Male;40;Soviet Union;04/05/2018 2:09;London
+437;1991;Rosa Mota;Female;40;Portugal;04/05/2018 2:26;London
+438;1990;Allister Hutton;Male;30;United Kingdom;04/05/2018 2:10;London
+439;1990;Wanda Panfil;Female;40;Poland;04/05/2018 2:26;London
+440;1989;Douglas Wakiihuri;Male;30;Kenya;04/05/2018 2:09;London
+441;1989;Véronique Marot;Female;50;United Kingdom;04/05/2018 2:25;London
+442;1988;Henrik Jørgensen;Male;30;Denmark;04/05/2018 2:10;London
+443;1988;Ingrid Kristiansen;Female;35;Norway;04/05/2018 2:25;London
+444;1987;Hiromi Taniguchi;Male;40;Japan;04/05/2018 2:09;London
+445;1987;Ingrid Kristiansen;Female;50;Norway;04/05/2018 2:22;London
+446;1986;Toshihiko Seko;Male;20;Japan;04/05/2018 2:10;London
+447;1986;Grete Waitz;Female;30;Norway;04/05/2018 2:24;London
+448;1985;Steve Jones;Male;40;United Kingdom;04/05/2018 2:08;London
+449;1985;Ingrid Kristiansen;Female;40;Norway;04/05/2018 2:21;London
+450;1984;Charlie Spedding;Male;20;United Kingdom;04/05/2018 2:09;London
+451;1984;Ingrid Kristiansen;Female;30;Norway;04/05/2018 2:24;London
+452;1983;Mike Gratton;Male;40;United Kingdom;04/05/2018 2:09;London
+453;1983;Grete Waitz;Female;40;Norway;04/05/2018 2:25;London
+454;1982;Hugh Jones;Male;45;United Kingdom;04/05/2018 2:09;London
+455;1982;Joyce Smith;Female;45;United Kingdom;04/05/2018 2:29;London
+456;1981;Dick Beardsley;Male;50;United States;04/05/2018 2:11;London
+457;1981;Inge Simonsen;Male;35;Norway;04/05/2018 2:11;London
+458;1981;Joyce Smith;Female;35;United Kingdom;04/05/2018 2:29;London
+459;2017;Galen Rupp;Male;35;United States;04/05/2018 2:09;Chicago
+460;2017;Tirunesh Dibaba;Female;45;Ethiopia;04/05/2018 2:18;Chicago
+461;2016;Abel Kirui;Male;40;Kenya;04/05/2018 2:11;Chicago
+462;2016;Florence Kiplagat;Female;35;Kenya;04/05/2018 2:21;Chicago
+463;2015;Dickson Chumba;Male;45;Kenya;04/05/2018 2:09;Chicago
+464;2015;Florence Kiplagat;Female;20;Kenya;04/05/2018 2:23;Chicago
+465;2014;Eliud Kipchoge;Male;45;Kenya;04/05/2018 2:04;Chicago
+466;2014;Mare Dibaba;Female;30;Ethiopia;04/05/2018 2:25;Chicago
+467;2013;Dennis Kimetto;Male;40;Kenya;04/05/2018 2:03;Chicago
+468;2013;Rita Jeptoo;Female;35;Kenya;04/05/2018 2:19;Chicago
+469;2012;Tsegaye Kebede;Male;45;Ethiopia;04/05/2018 2:04;Chicago
+470;2012;Atsede Baysa;Female;35;Ethiopia;04/05/2018 2:22;Chicago
+471;2011;Moses Mosop;Male;40;Kenya;04/05/2018 2:05;Chicago
+472;2011;Ejegayehu Dibaba;Female;50;Ethiopia;04/05/2018 2:22;Chicago
+473;2010;Samuel Wanjiru;Male;20;Kenya;04/05/2018 2:06;Chicago
+474;2010;Atsede Baysa;Female;40;Ethiopia;04/05/2018 2:23;Chicago
+475;2009;Samuel Wanjiru;Male;40;Kenya;04/05/2018 2:05;Chicago
+476;2009;Irina Mikitenko;Female;40;Germany;04/05/2018 2:26;Chicago
+477;2008;Evans Cheruiyot;Male;40;Kenya;04/05/2018 2:06;Chicago
+478;2008;Lidiya Grigoryeva;Female;50;Russia;04/05/2018 2:27;Chicago
+479;2007;Patrick Ivuti;Male;45;Kenya;04/05/2018 2:11;Chicago
+480;2007;Berhane Adere;Female;30;Ethiopia;04/05/2018 2:33;Chicago
+481;2006;Robert Cheruiyot;Male;35;Kenya;04/05/2018 2:07;Chicago
+482;2006;Berhane Adere;Female;40;Ethiopia;04/05/2018 2:20;Chicago
+483;2005;Felix Limo;Male;20;Kenya;04/05/2018 2:07;Chicago
+484;2005;Deena Kastor;Female;50;United States;04/05/2018 2:21;Chicago
+485;2004;Evans Rutto;Male;40;Kenya;04/05/2018 2:06;Chicago
+486;2004;Dita, Constantina;Female;35;Romania;04/05/2018 2:23;Chicago
+487;2003;Evans Rutto;Male;50;Kenya;04/05/2018 2:05;Chicago
+488;2003;Svetlana Zakharova;Female;30;Russia;04/05/2018 2:23;Chicago
+489;2002;Khalid Khannouchi;Male;50;United States;04/05/2018 2:05;Chicago
+490;2002;Paula Radcliffe;Female;30;United Kingdom;04/05/2018 2:17;Chicago
+491;2001;Ben Kimondiu;Male;35;Kenya;04/05/2018 2:08;Chicago
+492;2001;Catherine Ndereba;Female;45;Kenya;04/05/2018 2:18;Chicago
+493;2000;Khalid Khannouchi;Male;20;United States;04/05/2018 2:07;Chicago
+494;2000;Catherine Ndereba;Female;45;Kenya;04/05/2018 2:21;Chicago
+495;1999;Khalid Khannouchi;Male;40;Morocco;04/05/2018 2:05;Chicago
+496;1999;Joyce Chepchumba;Female;50;Kenya;04/05/2018 2:25;Chicago
+497;1998;Ondoro Osoro;Male;20;Kenya;04/05/2018 2:06;Chicago
+498;1998;Joyce Chepchumba;Female;35;Kenya;04/05/2018 2:23;Chicago
+499;1997;Khalid Khannouchi;Male;30;Morocco;04/05/2018 2:07;Chicago
+500;1997;Marian Sutton;Female;20;United Kingdom;04/05/2018 2:29;Chicago
+501;1996;Paul Evans;Male;35;United Kingdom;04/05/2018 2:08;Chicago
+502;1996;Marian Sutton;Female;45;United Kingdom;04/05/2018 2:30;Chicago
+503;1995;Eamonn Martin;Male;20;United Kingdom;04/05/2018 2:11;Chicago
+504;1995;Ritva Lemettinen;Female;50;Finland;04/05/2018 2:28;Chicago
+505;1994;Luíz Antônio;Male;35;Brazil;04/05/2018 2:11;Chicago
+506;1994;Kristy Johnston;Female;40;United States;04/05/2018 2:31;Chicago
+507;1993;Luíz Antônio;Male;30;Brazil;04/05/2018 2:13;Chicago
+508;1993;Ritva Lemettinen;Female;50;Finland;04/05/2018 2:33;Chicago
+509;1992;José Cesar de Souza;Male;45;Brazil;04/05/2018 2:16;Chicago
+510;1992;Linda Somers;Female;20;United States;04/05/2018 2:37;Chicago
+511;1991;Joseildo Rocha;Male;20;Brazil;04/05/2018 2:14;Chicago
+512;1991;Midde Hamrin;Female;45;Sweden;04/05/2018 2:36;Chicago
+513;1990;Martín Pitayo;Male;30;Mexico;04/05/2018 2:09;Chicago
+514;1990;Aurora Cunha;Female;30;Portugal;04/05/2018 2:30;Chicago
+515;1989;Paul Davies-Hale;Male;40;United Kingdom;04/05/2018 2:11;Chicago
+516;1989;Lisa Weidenbach;Female;35;United States;04/05/2018 2:28;Chicago
+517;1988;Alejandro Cruz;Male;30;Mexico;04/05/2018 2:08;Chicago
+518;1988;Lisa Weidenbach;Female;40;United States;04/05/2018 2:29;Chicago
+519;1987;NA;NA;40;NA;NA;Chicago
+520;1987;NA;NA;20;NA;NA;Chicago
+521;1986;Toshihiko Seko;Male;40;Japan;04/05/2018 2:08;Chicago
+522;1986;Ingrid Kristiansen;Female;20;Norway;04/05/2018 2:27;Chicago
+523;1985;Steve Jones;Male;20;United Kingdom;04/05/2018 2:07;Chicago
+524;1985;Joan Benoit;Female;30;United States;04/05/2018 2:21;Chicago
+525;1984;Steve Jones;Male;35;United Kingdom;04/05/2018 2:08;Chicago
+526;1984;Rosa Mota;Female;40;Portugal;04/05/2018 2:26;Chicago
+527;1983;Joseph Nzau;Male;40;Kenya;04/05/2018 2:09;Chicago
+528;1983;Rosa Mota;Female;50;Portugal;04/05/2018 2:31;Chicago
+529;1982;Greg Meyer;Male;55;United States;04/05/2018 2:10;Chicago
+530;1982;Nancy Conz;Female;45;United States;04/05/2018 2:33;Chicago
+531;1981;Phil Coppess;Male;40;United States;04/05/2018 2:16;Chicago
+532;1981;Tina Gandy;Female;40;United States;04/05/2018 2:49;Chicago
+533;1980;Frank Richardson;Male;20;United States;04/05/2018 2:14;Chicago
+534;1980;Sue Peterson;Female;30;United States;04/05/2018 2:45;Chicago
+535;1979;Dan Cloeter;Male;20;United States;04/05/2018 2:23;Chicago
+536;1979;Laura Michalek;Female;40;United States;04/05/2018 3:15;Chicago
+537;1978;Mark Stanforth;Male;45;United States;04/05/2018 2:19;Chicago
+538;1978;Lynae Larson;Female;35;United States;04/05/2018 2:59;Chicago
+539;1977;Dan Cloeter;Male;30;United States;04/05/2018 2:17;Chicago
+540;1977;Dorothy Doolittle;Female;40;United States;04/05/2018 2:50;Chicago
+541;2018;Vivian Cheruiyot;Female;30;Kenya;04/05/2018 2:18;London
