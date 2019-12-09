@@ -9,49 +9,79 @@ import pandas as pd
 import numpy as np
 import os
 import sqlite3
+import xlsxwriter
 
-path_guardado = "C://Users//USRBET//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//artwork_data.pickle"
+path_guardado_bin = "C://Users//Ale//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//artwork_data_completo.pickle"
+df5 = pd.read_pickle(path_guardado_bin)
+df = df5.iloc[49980:50519,:].copy()
+#  Tipos archivos
+#  JSON
+#  EXCEL
+#  SQL
 
-df3 = pd.read_pickle(path_guardado)
-
-path_guardado_excel = "C://Users//USRBET//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//ex.xlsx"
-df3.to_excel(path_guardado_excel)
-df3.to_excel(path_guardado_excel, index = False)
+### EXCEL ##
+path_guardado = 'C://Users//Ale//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//mi_df_completo.xlsx'
+df.to_excel(path_guardado)
+df.to_excel(path_guardado, index=False)
 columnas = ['artist','title','year']
-df3.to_excel(path_guardado_excel, columns = columnas)
+df.to_excel(path_guardado, columns=columnas)
 
-path_guardado_multiple = "C://Users//USRBET//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//mulex.xlsx"
-df3.to_excel(path_guardado_multiple, columns = columnas)
-num = df3['artist'].value_counts()
-path_color = "C://Users//USRBET//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//colores.xlsx"
-df3.to_excel(path_color)
-writer = pd.ExcelWriter(path_color, engine = 'xlsxwriter')
-num.to_excel(writer, sheet_name = 'Artistas')
+### Multiples hojas de trabajo ###
+
+path_multiple = 'C://Users//Ale//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//mi_df_multiple.xlsx'
+writer = pd.ExcelWriter(path_multiple,
+                        engine='xlsxwriter')
+
+df.to_excel(writer, sheet_name = 'Primera')
+
+df.to_excel(writer, sheet_name = 'Segunda',
+            index=False)
+
+df.to_excel(writer, sheet_name = 'Tercera',
+            columns=columnas)
+
+writer.save()
+
+
+### Multiples hojas de trabajo ###
+
+num_artistas = df['artist'].value_counts()
+path_colores = 'C://Users//Ale//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//mi_df_colores.xlsx'
+
+writer = pd.ExcelWriter(path_colores,
+                        engine='xlsxwriter')
+
+num_artistas.to_excel(writer, 
+                      sheet_name='Artistas')
+
+
 hoja_artistas = writer.sheets['Artistas']
 
-rango = 'B2:B{}'.format(len(num.index)+1)
+rango_celdas = 'B2:B{}'.format(len(num_artistas.index) + 1)
 
-formato  = {
-        "type":"2_color_scale",
-        "min_value":"10",
-        "min_type":"percentile",
-        "max_value":"99",
-        "max_type":"percentile"
-        }
-hoja_artistas.conditional_format(rango, formato)
+formato_artistas = {
+        "type": "2_color_scale",
+        "min_value": "10",
+        "min_type": "percentile",
+        "max_value": "99",
+        "max_type": "percentile"}
 
-workbook = ThisWorkbook(path_color)
+hoja_artistas.conditional_format(rango_celdas,
+                                 formato_artistas)
+
+writer.save()
+
+
+
+workbook = xlsxwriter.Workbook('C://Users//Ale//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//mi_df_colores.xlsx')
 worksheet = workbook.add_worksheet()
-data = [10, 40, 50, 20, 10, 50]
-worksheet.write_column('B2:B', data)
-
-# Create a new chart object.
-chart = workbook.add_chart({'type': 'line'})
-
-# Add a series to the chart.
-chart.add_series({'values': '=$A$1:$A$6'})
-
-# Insert the chart into the worksheet.
-worksheet.insert_chart('D1', chart)
-
+data = num_artistas.values
+worksheet.write_column('B2',data)
+chart = workbook.add_chart({'type':'line'})
+chart.add_series({'values':'=Sheet1!$B$2:$B$85'})
+worksheet.insert_chart('C1', chart)
 workbook.close()
+
+
+
+
