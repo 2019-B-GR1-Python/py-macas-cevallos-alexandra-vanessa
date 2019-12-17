@@ -11,7 +11,7 @@ import os
 import sqlite3
 import xlsxwriter
 
-path_guardado_bin = "C://Users//Ale//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//artwork_data_completo.pickle"
+path_guardado_bin = "C://Users//USRBET//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//artwork_data_completo.pickle"
 df5 = pd.read_pickle(path_guardado_bin)
 df = df5.iloc[49980:50519,:].copy()
 #  Tipos archivos
@@ -20,7 +20,7 @@ df = df5.iloc[49980:50519,:].copy()
 #  SQL
 
 ### EXCEL ##
-path_guardado = 'C://Users//Ale//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//mi_df_completo.xlsx'
+path_guardado = 'C://Users//USRBET//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//mi_df_completo.xlsx'
 df.to_excel(path_guardado)
 df.to_excel(path_guardado, index=False)
 columnas = ['artist','title','year']
@@ -28,7 +28,7 @@ df.to_excel(path_guardado, columns=columnas)
 
 ### Multiples hojas de trabajo ###
 
-path_multiple = 'C://Users//Ale//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//mi_df_multiple.xlsx'
+path_multiple = 'C://Users//USRBET//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//mi_df_multiple.xlsx'
 writer = pd.ExcelWriter(path_multiple,
                         engine='xlsxwriter')
 
@@ -46,7 +46,7 @@ writer.save()
 ### Multiples hojas de trabajo ###
 
 num_artistas = df['artist'].value_counts()
-path_colores = 'C://Users//Ale//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//mi_df_colores.xlsx'
+path_colores = 'C://Users//USRBET//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//mi_df_colores.xlsx'
 
 writer = pd.ExcelWriter(path_colores,
                         engine='xlsxwriter')
@@ -70,6 +70,26 @@ hoja_artistas.conditional_format(rango_celdas,
                                  formato_artistas)
 
 writer.save()
+
+
+## SQL ###
+
+
+with sqlite3.connect("C://Users//USRBET//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//bdd_artista.db") as conexion:
+    df5.to_sql('py_artistas', conexion)
+
+##JSON
+df.to_json('C://Users//USRBET//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//artistas.json')
+
+df.to_json('C://Users//USRBET//Documents//GitHub//py-macas-cevallos-alexandra-vanessa//06-pandas//data//artistas_tabla.json', orient = 'table')
+
+
+
+
+
+
+
+
 
 
 
