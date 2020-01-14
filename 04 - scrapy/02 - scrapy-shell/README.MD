@@ -71,4 +71,41 @@ $  len(response.css('div.tags>a.tag::text').extract())
 ```
 $  response.css('div.quote>span>a::attr(href)').extract()
 ```
+## Xpath
 
+```
+$  response.xpath('/html/head/title').extract()
+```
+```
+$  response.xpath('/html/body/div/div[2]/div[2]/h2/text()').extract()
+```
+```
+$ response.xpath('/html/body/div/div[2]/div[2]/h2').extract()
+```
+todos los div
+```
+$ response.xpath('//div').extract()
+```
+```
+$ response.xpath("//div[@class='quote']/span[@class='text']").extract_first()
+```
+```
+$ response.xpath("//div[@class='quote']/span[@class='text']/text()").extract_first()
+```
+```
+$ response.xpath("//div[@class='quote']/span/a/@href").extract_first()
+```
+```
+$ response.xpath("//div[@class='quote']/span/a/text()").extract_first()
+```
+## scrapy startproject `nombre_proyecto`
+
+```
+$ scrapy startproject arania_basica
+```
+```
+$ scrapy crawl introduccion_spider
+```
+```
+$ response.xpath('//div').extract()
+```
