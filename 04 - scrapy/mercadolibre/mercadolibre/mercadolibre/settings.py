@@ -64,9 +64,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
+#ITEM_PIPELINES = {
     ##'mercadolibre.pipelines.MercadolibrePipeline': 300,
-}
+#}
 FEED_FORMAT = 'csv'
 FEED_URI = 'tmp/mercadolibre.csv'
 # Enable and configure the AutoThrottle extension (disabled by default)
