@@ -7,26 +7,27 @@
 
 import scrapy
 from scrapy.loader.processors import MapCompose
+from scrapy.loader.processors import TakeFirst
+def transformar_url(texto):
+    punto = 'fibeca.com'
+    cadena = '../..'
+    return texto.replace(cadena, punto)
 
 
-def truncar_texto(texto):
-    return texto[:15]
+class ProductoMercado(scrapy.Item):
 
-
-def shorten_mercado_libre_link(link):
-    id_producto = link.split('/')[-1]  # ultimo elemento
-    short_link = 'https://articulo.mercadolibre.com.ec/' + id_producto
-   
-    return short_link
-
-
-class CelularItem(scrapy.Item):
-    titulo = scrapy.Field(input_processor=MapCompose(truncar_texto))
-    precio = scrapy.Field()
-    link = scrapy.Field(input_processor=MapCompose(shorten_mercado_libre_link))
-
+    titulo = scrapy.Field()
+    location = scrapy.Field(
+     input_processor = MapCompose(
+         transformar_url
+         ),
+         output_processor = TakeFirst()
+         )
+    #detalle = scrapy.Field()
 
 class MercadolibreItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+  
+  
     pass
