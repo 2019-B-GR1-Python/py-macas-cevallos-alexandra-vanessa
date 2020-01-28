@@ -49,6 +49,7 @@ class AraniaCrawlOnu(CrawlSpider):
         lista_programas_onu = response.css(
             'div.field-items > div.field-item > h4::text'
         ).extract()
+        
         for agencia in lista_programas_onu:
             with open('onu_agencias.txt', 'a+', encoding='utf-8') as archivo:
                 archivo.write(agencia + '\n')
